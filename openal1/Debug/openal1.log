@@ -1,0 +1,60 @@
+﻿  openal1.cpp
+D:\0学习\实习\openal1\openal1\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\0学习\实习\openal1\openal1\openal1.cpp(74): warning C4018: “<”: 有符号/无符号不匹配
+openal1.obj : error LNK2019: 无法解析的外部符号 __imp__alGetError，该符号在函数 _main 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 __imp__alGenSources，该符号在函数 _main 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 __imp__alDeleteSources，该符号在函数 _main 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 __imp__alSourcef，该符号在函数 "void __cdecl createOpenAL(unsigned int)" (?createOpenAL@@YAXI@Z) 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 __imp__alSourcefv，该符号在函数 "void __cdecl createOpenAL(unsigned int)" (?createOpenAL@@YAXI@Z) 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 __imp__alSourcei，该符号在函数 "void __cdecl createOpenAL(unsigned int)" (?createOpenAL@@YAXI@Z) 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 __imp__alGetSourcei，该符号在函数 _main 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 __imp__alSourcePlay，该符号在函数 _main 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 __imp__alSourceStop，该符号在函数 _main 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 __imp__alSourceQueueBuffers，该符号在函数 "void __cdecl feedAudioData(unsigned int,unsigned int,int,struct _iobuf *,int)" (?feedAudioData@@YAXIIHPAU_iobuf@@H@Z) 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 __imp__alSourceUnqueueBuffers，该符号在函数 _main 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 __imp__alGenBuffers，该符号在函数 _main 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 __imp__alDeleteBuffers，该符号在函数 _main 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 __imp__alBufferData，该符号在函数 "void __cdecl feedAudioData(unsigned int,unsigned int,int,struct _iobuf *,int)" (?feedAudioData@@YAXIIHPAU_iobuf@@H@Z) 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 __imp__alcCreateContext，该符号在函数 _main 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 __imp__alcMakeContextCurrent，该符号在函数 _main 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 __imp__alcDestroyContext，该符号在函数 _main 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 __imp__alcOpenDevice，该符号在函数 _main 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 __imp__alcCloseDevice，该符号在函数 _main 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 __imp__alcGetError，该符号在函数 _main 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 _av_malloc，该符号在函数 _main 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 _av_free，该符号在函数 _main 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 _av_samples_get_buffer_size，该符号在函数 _main 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 _av_get_channel_layout_nb_channels，该符号在函数 _main 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 _av_frame_alloc，该符号在函数 _main 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 _av_frame_free，该符号在函数 _main 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 _av_packet_unref，该符号在函数 _main 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 _avcodec_find_decoder，该符号在函数 _main 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 _avcodec_alloc_context3，该符号在函数 _main 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 _avcodec_parameters_to_context，该符号在函数 _main 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 _avcodec_open2，该符号在函数 _main 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 _avcodec_close，该符号在函数 _main 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 _avcodec_send_packet，该符号在函数 _main 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 _avcodec_receive_frame，该符号在函数 _main 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 _avformat_network_init，该符号在函数 _main 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 _avformat_alloc_context，该符号在函数 _main 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 _avformat_open_input，该符号在函数 _main 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 _avformat_find_stream_info，该符号在函数 _main 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 _av_read_frame，该符号在函数 _main 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 _avformat_close_input，该符号在函数 _main 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 _av_dump_format，该符号在函数 _main 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 _swr_alloc，该符号在函数 _main 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 _swr_init，该符号在函数 _main 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 _swr_alloc_set_opts，该符号在函数 _main 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 _swr_free，该符号在函数 _main 中被引用
+openal1.obj : error LNK2019: 无法解析的外部符号 _swr_convert，该符号在函数 _main 中被引用
+lib\avcodec.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+lib\avdevice.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+lib\avfilter.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+lib\avformat.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+lib\avutil.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+lib\postproc.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+lib\swresample.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+lib\swscale.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+lib\EFX-Util.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+lib\OpenAL32.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\0学习\实习\openal1\Debug\openal1.exe : fatal error LNK1120: 46 个无法解析的外部命令
